@@ -25,9 +25,9 @@ You can view the live portfolio here:
 👉 [https://Jenat1210.github.io/portfolio](https://yourusername.github.io/portfolio) *(replace with your actual GitHub Pages URL)*
 
 ## 📬 Contact
-- 📧 Email: [mjcaro@gmail.com](mailto:mjcaroline10@gmail.com)  
+- 📧 Email: [mjcaroline10@gmail.com](mailto:mjcaroline10@gmail.com)  
 - 🔗 LinkedIn: [Jenat Caroline](http://www.linkedin.com/in/jenat-caroline-m-b38b2b282)  
-- 💻 GitHub: [github.com/yourusername](https://github.com/Jenat1210)
+- 💻 GitHub: [github.com/Jenat1210](https://github.com/Jenat1210)
 
 ---
 
