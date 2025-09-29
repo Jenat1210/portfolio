@@ -22,7 +22,7 @@ It is designed to highlight my professional background, technical skills, and ac
 
 ## 📚 How to View
 You can view the live portfolio here:  
-👉 [https://yourusername.github.io/portfolio](https://yourusername.github.io/portfolio) *(replace with your actual GitHub Pages URL)*
+👉 [https://Jenat1210.github.io/portfolio](https://yourusername.github.io/portfolio) *(replace with your actual GitHub Pages URL)*
 
 ## 📬 Contact
 - 📧 Email: [mjcaro@gmail.com](mailto:mjcaroline10@gmail.com)  
