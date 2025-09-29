@@ -16,7 +16,23 @@
       background: #f9f9f9;
       color: #333;
       line-height: 1.6;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+      padding: 20px;
     }
+
+    /* Main container to center all content */
+    .container {
+      max-width: 900px;
+      width: 100%;
+      background: #ffffff;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
     header {
       background: #333;
       color: #fff;
@@ -42,9 +58,7 @@
       text-decoration: underline;
     }
     section {
-      padding: 60px 20px;
-      max-width: 900px;
-      margin: auto;
+      padding: 40px 20px;
     }
     h2 {
       text-align: center;
@@ -52,11 +66,7 @@
       color: #222;
     }
     .about, .skills, .projects, .achievements, .contact {
-      background: #fff;
       margin: 20px 0;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     }
     .skills-list, .tools-list {
       display: grid;
@@ -103,96 +113,97 @@
 </head>
 <body>
 
-  <header>
-    <h1>Jenat Caroline</h1>
-    <p>Final Year B.E. CSE Student | Aspiring Data Analyst | Python, AI & ML Enthusiast</p>
-  </header>
+  <div class="container">
+    <header>
+      <h1>Jenat Caroline</h1>
+      <p>Final Year B.E. CSE Student | Aspiring Data Analyst | Python, AI & ML Enthusiast</p>
+    </header>
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#achievements">Achievements</a>
-    <a href="#contact">Contact</a>
-  </nav>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
 
-  <section id="about" class="about">
-    <h2>About Me</h2>
-    <p>
-      Hello! I’m <strong>Jenat Caroline</strong>, a final-year B.E. Computer Science and Engineering student passionate about
-      data analytics,artificial intelligence and machine learning, and solving real-world problems with technology. My goal is to start my career
-      as a analyst or  developer where I can contribute to impactful projects and grow as a professional.
-    </p>
-  </section>
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! I’m <strong>Jenat Caroline</strong>, a final-year B.E. Computer Science and Engineering student passionate about
+        data analytics, artificial intelligence, and machine learning, and solving real-world problems with technology. My goal is to start my career
+        as an analyst or developer where I can contribute to impactful projects and grow as a professional.
+      </p>
+    </section>
 
-  <section id="skills" class="skills">
-    <h2>Skills</h2>
-    <h3>Languages</h3>
-    <div class="skills-list">
-      <div>Python</div>
-      <div>Java</div>
-      <div>SQL</div>
-      <div>C</div>
-    </div>
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <h3>Languages</h3>
+      <div class="skills-list">
+        <div>Python</div>
+        <div>Java</div>
+        <div>SQL</div>
+        <div>C</div>
+      </div>
 
-    <h3>Frameworks & Libraries</h3>
-    <div class="skills-list">
-      <div>NumPy</div>
-      <div>Pandas</div>
-      <div>Matplotlib</div>
-      <div>Seaborn</div>
-      <div>Scikit-learn</div>
-    </div>
+      <h3>Frameworks & Libraries</h3>
+      <div class="skills-list">
+        <div>NumPy</div>
+        <div>Pandas</div>
+        <div>Matplotlib</div>
+        <div>Seaborn</div>
+        <div>Scikit-learn</div>
+      </div>
 
-    <h3>Tools & Platforms</h3>
-    <div class="tools-list">
-      <div>MS Excel</div>
-      <div>VS Code</div>
-      <div>MySQL</div>
-      <div>Power BI</div>
-      <div>Google Colab</div>
-    </div>
-  </section>
+      <h3>Tools & Platforms</h3>
+      <div class="tools-list">
+        <div>MS Excel</div>
+        <div>VS Code</div>
+        <div>MySQL</div>
+        <div>Power BI</div>
+        <div>Google Colab</div>
+      </div>
+    </section>
 
-  <section id="projects" class="projects">
-    <h2>Projects</h2>
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
 
-    <div class="project-card">
-      <h3>Regional Drug Movement Prediction System</h3>
-      <p>  Analyzed historical drug distribution data to detect 
-movement patterns .Built interactive dashboards for trend 
-forecasting and insights.Improved regional forecasting 
-accuracy and decision-making with data visualization </p>
-    </div>
+      <div class="project-card">
+        <h3>Regional Drug Movement Prediction System</h3>
+        <p>Analyzed historical drug distribution data to detect 
+        movement patterns. Built interactive dashboards for trend 
+        forecasting and insights. Improved regional forecasting 
+        accuracy and decision-making with data visualization.</p>
+      </div>
 
-    <div class="project-card">
-      <h3>Smart Agriculture Ai and iot based Irrigation System</h3>
-      <p>Developed an AI Driven system for automated Irrigation and Fertigation. Used sensors to monitor soil and data in real time. Applied ML models to optimize water and fertilizer use for crops. </p>
-    </div>
+      <div class="project-card">
+        <h3>Smart Agriculture AI & IoT-based Irrigation System</h3>
+        <p>Developed an AI-driven system for automated irrigation and fertigation. Used sensors to monitor soil and data in real time. Applied ML models to optimize water and fertilizer use for crops.</p>
+      </div>
 
-  </section>
+    </section>
 
-  <section id="achievements" class="achievements">
-    <h2>Achievements & Certifications</h2>
-    <ul>
-      <li>Python for Beginners – Infosys Springboard</li>
-      <li> Python Foundation Course – Infosys Springboard</li>
-      <li> Principles of UI/UX Design – Coursera</li>
-      <li>MongoDB Practice Sessions – Codetantra</li>
-    </ul>
-  </section>
+    <section id="achievements" class="achievements">
+      <h2>Achievements & Certifications</h2>
+      <ul>
+        <li>Python for Beginners – Infosys Springboard</li>
+        <li>Python Foundation Course – Infosys Springboard</li>
+        <li>Principles of UI/UX Design – Coursera</li>
+        <li>MongoDB Practice Sessions – Codetantra</li>
+      </ul>
+    </section>
 
-  <section id="contact" class="contact">
-    <h2>Contact Me</h2>
-    <p>📧 Email:<a href="mailto:mjcaroline10@gmail.com">mjcaro@gmail.com</a></p>
-    <p>🔗 LinkedIn:<a href="http://www.linkedin.com/in/jenat-caroline-m-b38b2b282" target="_blank">linkedin.com/in/jenat-caroline</a></p>
-    <p>💻 GitHub:<a href="#" target="_blank">github.com/Jenat1210</a></p>
-  </section>
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <p>📧 Email: <a href="mailto:mjcaroline10@gmail.com">mjcaroline10@gmail.com</a></p>
+      <p>🔗 LinkedIn: <a href="http://www.linkedin.com/in/jenat-caroline-m-b38b2b282" target="_blank">linkedin.com/in/jenat-caroline</a></p>
+      <p>💻 GitHub: <a href="#" target="_blank">github.com/Jenat1210</a></p>
+    </section>
 
-  <footer>
-    <p>© 2025 Jenat Caroline | Built with HTML & CSS</p>
-  </footer>
+    <footer>
+      <p>© 2025 Jenat Caroline | Built with HTML & CSS</p>
+    </footer>
+  </div>
 
 </body>
 </html>
-
